@@ -93,6 +93,7 @@ Feel free to make pull requests with upgrades to OffStage at [GitHub](http://git
 ## Images & Navigation
 * [waypoint.js](http://imakewebthings.com/jquery-waypoints/)
 * [stellar.js](http://markdalgleish.com/projects/stellar.js/)
+* [Sticky Footer](http://www.cssstickyfooter.com/)
 
 ## Markup and Styling
 * [SASS](http://sass-lang.com/)
