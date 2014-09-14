@@ -1,0 +1,21 @@
+---
+baseurl: "/"
+theme: offstage
+MetaDataFormat: yaml
+params:
+  title: "(Off)Stage"
+  subtitle: "A content-agnostic Hugo theme based on Stage."
+  coverimage: "/images/stage.jpg"
+  social:
+    link: "/"
+    website: "/"
+    facebook: "http://facebook.com/"
+    twitter: "http://twitter.com/"
+    contact: "http://example.com"
+  navbar:
+    blog: "/post/"
+    about: "/author/noahlange"
+    events: "/event/"
+  fonts: "Lato:300,500,700"
+  maps: "true"
+---
