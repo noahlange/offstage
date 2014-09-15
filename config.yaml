@@ -6,6 +6,12 @@ params:
   title: "(Off)Stage"
   subtitle: "A content-agnostic Hugo theme based on Stage."
   coverimage: "/images/stage.jpg"
+  authors:
+    offstage:
+        name: Offstage
+        description: "A content-agnostic Hugo theme based on Stage."
+        image: "/images/avatar.png"
+        link: "/"
   social:
     link: "/"
     website: "/"

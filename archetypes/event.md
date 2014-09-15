@@ -4,11 +4,10 @@ map:
   long: -89.4064204
   heading: 55
   zoom: 15
+event:
+  location: "A location."
+  date: "A date."
+  time: "A time."
 excerpt: "An excerpt from the content text."
 description: "A description of the event."
-author:
-  name: "Name of the author."
-  description: "A description of the author."
-  image: "/images/avatar.png"
-  link: "/"
 ---
