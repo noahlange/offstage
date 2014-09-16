@@ -13,9 +13,9 @@
       {{ .Content }}
     </section>
     <section class="container">
-      <h3>Discography</h3>
+      <h3>Posts</h3>
       <br />
-      {{ range where .Site.Recent.ByDate.Reverse "Section" "album" }}
+      {{ range where .Site.Recent.ByDate.Reverse "Section" "post" }}
         {{ if eq .Params.author $author }}
           {{ .Render "summary" }}
         {{ end }}
