@@ -11,6 +11,12 @@ While the Stage theme is heavily based off the excellent [Hugo Incorporated](htt
 
 OffStage comes pre-packaged with only two content type from Stage: the Media content type, which provides the means to create image or video galleries and Event, which provides the ability to create events with their own locations, which are rendered as Google maps.
 
+## Multi-Author Support
+
+It took a night of swearing at the computer, but Stage now has multi-author/artist support. It's not perfect, but it'll do for now. An array of authors can be configured in config.yaml, which can then be referenced by *name*, not array key, (i.e., author.stage.$name, not authors.$key ) in the 'author' Paramater in content front matter. (It can be safely omitted on 'Author' pages, where it instead uses the page Title as the author name.)
+
+Hugo then dynamically generates each article's footer from the information stored in config.yaml.
+
 # Presentation
 
 ## Images
@@ -60,6 +66,12 @@ params:
  title: "(Off)Stage"
  subtitle: "A content-agnostic Hugo theme based on Stage."
  coverimage: "/images/stage.jpg"
+ authors:
+  offstage:
+    name: "(Off)Stage"
+    link: "/"
+    image: "/images/avatar.png"
+    description: "A content-agnostic Hugo theme based on Stage."
  social:
    link: "/"
    website: "/"
